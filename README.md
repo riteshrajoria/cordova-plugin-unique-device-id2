@@ -1,5 +1,4 @@
-UniqueDeviceID
-==============
+# cordova-plugin-unique-device-id
 
 ## Difference from original forked version
 
@@ -10,18 +9,11 @@ PhoneGap / Cordova unique device id (UUID) plugin for Android, iOS and Windows P
 
 ## Installation
 
-Latest stable release: ```phonegap local plugin add cordova-plugin-unique-device-id```  
-or ```cordova plugin add cordova-plugin-unique-device-id```
-
-Current state from git: ```phonegap local plugin add https://github.com/Paldom/UniqueDeviceID.git```  
-or ```cordova plugin add https://github.com/Paldom/UniqueDeviceID.git```
-
-## Installation - PhoneGap Build 
-
-Add following to config.xml: ```<gap:plugin name="cordova-plugin-unique-device-id" source="npm" />```
-
-For older versions, use the following: ```<gap:plugin name="hu.dpal.phonegap.plugins.uniquedeviceid" version="1.2.0" />```
-or ```<gap:plugin name="hu.dpal.phonegap.plugins.uniquedeviceid" source="plugins.cordova.io" />```
+```bash
+cordova plugin add cordova-plugin-unique-device-id
+# or  
+phonegap local plugin add cordova-plugin-unique-device-id
+```
 
 ## Supported Platforms
 
@@ -31,12 +23,16 @@ or ```<gap:plugin name="hu.dpal.phonegap.plugins.uniquedeviceid" source="plugins
 
 ## Usage
 
-    // Get UUID
-    window.plugins.uniqueDeviceID.get(success, fail);
+```javascript
+// Success callback function
+function fooSuccessCallback(uuid) {
+    console.log(uuid);
+};
 
-Success callback function:
+function fooFailCallback(error) {
+    console.log(error);
+};
 
-    function success(uuid)
-    {
-        console.log(uuid);
-    };
+// Get UUID
+window.plugins.uniqueDeviceID.get(fooSuccessCallback, fooFailCallback);
+```
