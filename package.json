@@ -1,42 +1,45 @@
 {
-  "name": "cordova-plugin-unique-device-id",
-  "version": "2.0.0",
-  "description": "PhoneGap / Cordova unique device id (UUID) plugin for Android, iOS and Windows Phone 8.",
-  "cordova": {
-    "id": "cordova-plugin-unique-device-id",
-    "platforms": [
-      "ios",
-      "android",
-      "wp8"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wizpanda/cordova-plugin-unique-device-id"
-  },
-  "keywords": [
-    "phonegap",
-    "cordova",
-    "android",
-    "ios",
-    "wp",
-    "Windows",
-    "phone",
-    "device",
-    "id",
-    "uuid",
-    "unique"
-  ],
-  "engines": [
-    {
-      "name": "cordova",
-      "version": ">=3.0.0"
-    }
-  ],
-  "author": "Domonkos Pal <public@dpal.hu> (https://github.com/Paldom)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wizpanda/cordova-plugin-unique-device-id/issues"
-  },
-  "homepage": "https://github.com/wizpanda/cordova-plugin-unique-device-id"
+    "name": "cordova-plugin-unique-device-id",
+    "version": "2.0.0",
+    "description": "PhoneGap / Cordova unique device id (UUID) plugin for Android, iOS and Windows Phone 8.",
+    "scripts": {
+        "postversion": "git push && git push --tags"
+    },
+    "cordova": {
+        "id": "cordova-plugin-unique-device-id",
+        "platforms": [
+            "ios",
+            "android",
+            "wp8"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wizpanda/cordova-plugin-unique-device-id"
+    },
+    "keywords": [
+        "phonegap",
+        "cordova",
+        "android",
+        "ios",
+        "wp",
+        "Windows",
+        "phone",
+        "device",
+        "id",
+        "uuid",
+        "unique"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0.0"
+        }
+    ],
+    "author": "Domonkos Pal <public@dpal.hu> (https://github.com/Paldom)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/wizpanda/cordova-plugin-unique-device-id/issues"
+    },
+    "homepage": "https://github.com/wizpanda/cordova-plugin-unique-device-id"
 }
