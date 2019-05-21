@@ -1,5 +1,7 @@
 # cordova-plugin-unique-device-id2
 
+[![npm version](https://badge.fury.io/js/cordova-plugin-unique-device-id2.svg)](https://badge.fury.io/js/cordova-plugin-unique-device-id2)
+
 ## Difference from original forked version
 
 1. Removed `READ_PHONE_STATE` permission https://android-developers.googleblog.com/2018/10/providing-safe-and-secure-experience.html
