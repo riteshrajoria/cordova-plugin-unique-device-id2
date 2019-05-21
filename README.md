@@ -1,4 +1,4 @@
-# cordova-plugin-unique-device-id
+# cordova-plugin-unique-device-id2
 
 ## Difference from original forked version
 
@@ -10,9 +10,9 @@ PhoneGap / Cordova unique device id (UUID) plugin for Android, iOS and Windows P
 ## Installation
 
 ```bash
-cordova plugin add cordova-plugin-unique-device-id
+cordova plugin add cordova-plugin-unique-device-id2
 # or  
-phonegap local plugin add cordova-plugin-unique-device-id
+phonegap local plugin add cordova-plugin-unique-device-id2
 ```
 
 ## Supported Platforms
